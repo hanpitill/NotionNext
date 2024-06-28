@@ -1,0 +1,26 @@
+/* 在 /styles/custom-style.css 文件中添加以下内容 */
+
+.header-cover-wrapper {
+  position: relative !important;
+  width: 100% !important;
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+
+.header-cover-wrapper::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-image: url('https://raw.githubusercontent.com/hanpitill/pic_forhanpitill/main/tomas-malik-oiyBTSzxBxU-unsplash.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  z-index: 1 !important;
+}
+
+.header-cover-wrapper img {
+  opacity: 0 !important;
+}
